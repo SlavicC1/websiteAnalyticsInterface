@@ -1,20 +1,22 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <router-view></router-view>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
+  name: 'MainPage',
 }
 </script>
 
 <style>
-  #app {
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
 
-  }
+    #app {
+        width: 100%;
+    }
 </style>
