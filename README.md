@@ -1,4 +1,4 @@
-# hello-world
+# website-analytics
 
 ## Project setup
 ```
