@@ -10,12 +10,12 @@ export default createStore({
     mutations: {
         setSiteId(state, {siteId}){
             state.siteId = siteId;
-            localStorage.setItem('leadhit-site-id', siteId);
         }
     },
     
     actions: {
-        async saveSiteId(state, {siteId}) {
+        saveSiteId(state, {siteId}) {
+            localStorage.setItem('leadhit-site-id', siteId);
             state.commit('setSiteId',{siteId});
         }
     }

@@ -1,24 +1,12 @@
 # website-analytics
 
-## Project setup
+## Настройка окружения
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Запуск на локальной машине
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+[Описание задания](https://docs.google.com/document/d/1kkBaZYmehNVgCMd76jdbvL8zTxgMsg63VWnDWdTdkiY/edit?usp=sharing )

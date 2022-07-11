@@ -4,6 +4,7 @@
 </template>
 
 <script>
+import {mapState} from 'vuex';
 import AuthPageForm from './AuthPageForm.vue';
 
 export default {
@@ -12,6 +13,14 @@ export default {
   components: {
     AuthPageForm
   },
+
+  beforeMount() {
+    this.siteId ? this.$router.push('/analytics') : null;
+  },
+
+  computed: mapState({
+    siteId: state => state.siteId, 
+  }),
 }
 </script>
 
